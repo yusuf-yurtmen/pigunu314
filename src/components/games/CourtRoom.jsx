@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {
     ArrowLeft, ArrowRight, AlertTriangle, CheckCircle, RotateCw,
-    ClipboardList, AlertCircle, Scale, Vote, Calculator, BookOpen,
+    ClipboardList, AlertCircle, Scale, ThumbsUp, Calculator, BookOpen,
     Monitor, Ruler, Car, Satellite, Music, Globe, Gem, GraduationCap
 } from 'lucide-react';
 import { useStore, APP_CONFIG, StorageService } from '../../lib/store';
@@ -11,7 +11,7 @@ const IconMap = {
     ClipboardList: <ClipboardList className="inline-icon" />,
     AlertCircle: <AlertCircle className="inline-icon" />,
     CheckCircle: <CheckCircle className="inline-icon" />,
-    Vote: <Vote className="inline-icon" />,
+    Vote: <ThumbsUp className="inline-icon" />,
     Scale: <Scale className="inline-icon" />,
     Zap: <AlertTriangle className="inline-icon" />,
     Calculator: <Calculator className="inline-icon" />,
