@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Star, Download, Play, Palette, Network } from 'lucide-react';
-import { store, useStore, APP_CONFIG } from '../../lib/store';
-import { AudioEngine } from '../../lib/audio';
+import { store, useStore, APP_CONFIG } from '@/lib/store';
+import { AudioEngine } from '@/lib/audio';
 
 const PALETTES = [
     ['#c084fc', '#ec4899', '#fbbf24', '#06d6a0', '#7c3aed', '#f97316', '#60a5fa', '#34d399', '#f87171', '#e2e8f0'],

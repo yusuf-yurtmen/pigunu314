@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Sparkles, Activity, Target, Brain, Scale, MessageSquare } from 'lucide-react';
-import StarMap from './components/games/StarMap';
-import RhythmGame from './components/games/RhythmGame';
-import BubbleHunt from './components/games/BubbleHunt';
-import QuizGame from './components/games/QuizGame';
-import MemoryGame from './components/games/MemoryGame';
-import CourtRoom from './components/games/CourtRoom';
-import Comments from './components/Comments';
+import StarMap from '@/components/games/StarMap';
+import RhythmGame from '@/components/games/RhythmGame';
+import BubbleHunt from '@/components/games/BubbleHunt';
+import QuizGame from '@/components/games/QuizGame';
+import MemoryGame from '@/components/games/MemoryGame';
+import CourtRoom from '@/components/games/CourtRoom';
+import Comments from '@/components/Comments';
 
 function useBackgroundEngine() {
   useEffect(() => {
