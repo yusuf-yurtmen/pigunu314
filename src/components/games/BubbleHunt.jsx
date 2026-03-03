@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { Target, Trophy, RotateCw } from 'lucide-react';
-import { store, useStore, APP_CONFIG } from '@/lib/store';
-import { AudioEngine } from '@/lib/audio';
-import { EffectEngine } from '@/lib/engine';
+import { store, useStore, APP_CONFIG } from '../../lib/store';
+import { AudioEngine } from '../../lib/audio';
+import { EffectEngine } from '../../lib/engine';
 
 const PALETTE_BG = [
     'linear-gradient(135deg,#8b5cf6,#d8b4fe)',

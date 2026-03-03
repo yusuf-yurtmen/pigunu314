@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { MessageSquare, User, Send, Check } from 'lucide-react';
-import { StorageService } from '@/lib/store';
+import { StorageService } from '../../lib/store';
 
 export default function Comments() {
     const [comments, setComments] = useState(() => StorageService.get('piCm', []));

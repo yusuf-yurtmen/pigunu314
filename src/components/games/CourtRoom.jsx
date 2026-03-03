@@ -4,7 +4,7 @@ import {
     ClipboardList, AlertCircle, Scale, Vote, Calculator, BookOpen,
     Monitor, Ruler, Car, Satellite, Music, Globe, Gem, GraduationCap
 } from 'lucide-react';
-import { useStore, APP_CONFIG, StorageService } from '@/lib/store';
+import { useStore, APP_CONFIG, StorageService } from '../../lib/store';
 
 // Helper to map string icon names from config to Lucide components
 const IconMap = {

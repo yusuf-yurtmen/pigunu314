@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { RotateCcw } from 'lucide-react';
-import { useStore, APP_CONFIG } from '@/lib/store';
-import { EffectEngine } from '@/lib/engine';
-import { AudioEngine } from '@/lib/audio';
+import { useStore, APP_CONFIG } from '../../lib/store';
+import { EffectEngine } from '../../lib/engine';
+import { AudioEngine } from '../../lib/audio';
 
 export default function MemoryGame() {
     const [memory, updateMemory] = useStore('memory');

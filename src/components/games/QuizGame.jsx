@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
 import { Brain, Award, Clock, AlertCircle, RotateCw, CheckCircle, XCircle } from 'lucide-react';
-import { store, useStore, APP_CONFIG } from '@/lib/store';
-import { AudioEngine } from '@/lib/audio';
+import { store, useStore, APP_CONFIG } from '../../lib/store';
+import { AudioEngine } from '../../lib/audio';
 
 export default function QuizGame() {
     const [quiz, updateQuiz] = useStore('quiz');

@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
 import { Play, Flame, Zap, Award, Share2 } from 'lucide-react';
-import { store, useStore, APP_CONFIG } from '@/lib/store';
-import { AudioEngine } from '@/lib/audio';
-import { EffectEngine } from '@/lib/engine';
+import { store, useStore, APP_CONFIG } from '../../lib/store';
+import { AudioEngine } from '../../lib/audio';
+import { EffectEngine } from '../../lib/engine';
 
 export default function RhythmGame() {
     const [rhythm, updateRhythm] = useStore('rhythm');
